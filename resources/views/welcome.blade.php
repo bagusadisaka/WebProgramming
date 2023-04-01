@@ -84,8 +84,8 @@
 
     <!-- INTEREST -->
 
-    <div id="interest" class="">
-        <h2 class="text-[2vw] font-bold mt-[2vw] ml-[9vw] mb-[0.5vw]"> Interest </h2>
+    <div id="interests" class="">
+        <h2 class="text-[2vw] font-bold mt-[2vw] ml-[9vw] mb-[0.5vw]"> Interests </h2>
         <div class="flex flex-row">
             <div id="card_1" class=""> 
                 <a class="ml-[9vw] block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -110,8 +110,8 @@
 
     <!-- EDUCATION -->
 
-    <div class="education">
-        <h1 class="text-[2vw] font-bold mt-[5vw] ml-[9vw] mb-[1.5vw]"> Education </h1>
+    <div class="educations">
+        <h1 class="text-[2vw] font-bold mt-[5vw] ml-[9vw] mb-[1.5vw]"> Educations </h1>
         <ol class="ml-[9vw] mr-[9vw] border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-[3vw] md:border-l-0 md:border-t">
             <li>
                 <div class="flex-start flex items-center pt-2 md:block md:pt-0">
@@ -181,8 +181,303 @@
         </ol>
     </div>    
 
+    <!-- EDUCATIONS ver.2 -->
 
+    <!-- <ol class="items-center sm:flex ml-[9vw] mr-[9vw]">
+        <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                </div>
+                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+            </div>
+        </li>
 
+        <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                </div>
+                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+            </div>
+        </li>
+
+        <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                </div>
+                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+            </div>
+        </li>
+
+        <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+                <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                </div>
+                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+            </div>
+        </li>
+    </ol> -->
+    
+    <!-- ORGANIZATIONS -->
+    <div id="organizations"> 
+        <h1 class="text-[2vw] font-bold mt-[5vw] ml-[9vw] mb-[1.5vw]"> Organizations </h1>
+
+        <div class="ml-[9vw] mr-[9vw] p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50 dark:bg-[#E7E7E7] dark:border-gray-700">
+            <time class="text-lg font-semibold text-gray-900">ELEMENTARY SCHOOL</time>
+            <ol class="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo TPDM.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Pengurus Tim Penegak Disiplin Masjid (TPDM)</div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2014 - 2015
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="ml-[9vw] mr-[9vw] p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50  dark:bg-[#E7E7E7] dark:border-gray-700">
+            <time class="text-lg font-semibold text-gray-900">JUNIOR HIGH SCHOOL</time>
+            <ol class="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo DPA.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Pengurus Dewan Penggalang Putra (DPA)</div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2015 - 2016
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo OSIS.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Sekretaris Organisasi Siswa Intra Sekolah (OSIS) </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2016 - 2017
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="ml-[9vw] mr-[9vw] p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50  dark:bg-[#E7E7E7] dark:border-gray-700">
+            <time class="text-lg font-semibold text-gray-900">SENIOR HIGH SCHOOL</time>
+            <ol class="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo OSIS.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Sekretaris Organisasi Siswa Intra Sekolah (OSIS)</div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2018 - 2019
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo OSIS.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Ketua Organisasi Siswa Intra Sekolah (OSIS) </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2019 - 2020
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo FPODS.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900">Humas Forum Pengurus OSIS Dispendik Sidoarjo (FPODS) </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2020 - 2021
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="ml-[9vw] mr-[9vw] p-5 border border-gray-100 rounded-lg bg-gray-50  dark:bg-[#E7E7E7] dark:border-gray-700">
+            <time class="text-lg font-semibold text-gray-900">UNDERGRADUATE</time>
+            <ol class="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo Forsima Gold.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900"> Wakil Ketua Forum Silaturahmi Mahasiswa Muslim PPA/PPTI/PPBP BCA (FORSIMA) </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2021 - 2022
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo Creative Team.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900"> Koordinator Acara Creative Team RTB </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2021 - 2022
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <img class="w-12 h-12 mb-3 mr-3 rounded-full sm:mb-0" src="assets/Logo Creative Team.png" alt="tpdm"/>
+                        <div class="text-gray-700">
+                            <div class="text-base font-normal"><span class="font-medium text-gray-900"> Ketua Creative Team RTB </div>
+                            <div class="text-sm font-normal">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                            <span class="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+                                <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
+                                2022
+                            </span> 
+                        </div>
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+    </div>
+
+    <!-- ACHIEVMENTS -->
+
+    <section class="mt-[5vw]">
+        <div class="bg-gray-700 text-white py-8">
+            <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+
+                <!-- BAGIAN KIRI -->
+                <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+                    <p class="ml-2 text-yellow-300 uppercase tracking-loose">Achievements</p>
+                    <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Honors & Awards</p>
+                    <p class="text-sm md:text-base text-gray-50 mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                    scelerisque diam non nisi semper, et elementum lorem ornare.
+                    Maecenas placerat facilisis mollis.
+                    </p>
+                    <a href="#" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"> 
+                    Explore Now</a>
+                </div>
+
+                <!-- BAGIAN KANAN -->
+                <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+                    <div class="container mx-auto w-full h-full">
+                        <div class="relative wrap overflow-hidden p-10 h-full">
+
+                            <div class="border-2-2 border-yellow-555 absolute h-full border"
+                            style="right: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+                            <div class="border-2-2 border-yellow-555 absolute h-full border"
+                            style="left: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+
+                            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                <div class="order-1 w-5/12"></div>
+                                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                        <p class="mb-3 text-base text-yellow-300">2014</p>
+                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">1st Winner English Competition (Trivia Quiz Category)</h4>
+                                        <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                        scelerisque diam non nisi semper, et elementum lorem ornare.
+                                        Maecenas placerat facilisis mollis.
+                                        </p>
+                                    </div>
+                            </div>
+
+                            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                <div class="order-1 w-5/12"></div>
+                                <div class="order-1  w-5/12 px-1 py-4 text-left">
+                                    <p class="mb-3 text-base text-yellow-300">2016</p>
+                                    <h4 class="mb-3 font-bold text-lg md:text-2xl">Juara 1 ISTTS Robotic Technology Competition</h4>
+                                    <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                    scelerisque diam non nisi semper, et elementum lorem ornare.
+                                    Maecenas placerat facilisis mollis.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                <div class="order-1 w-5/12"></div>
+                                <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                    <p class="mb-3 text-base text-yellow-300">2016</p>
+                                    <h4 class="mb-3 font-bold text-lg md:text-2xl">3rd Winner IT-Smart Computer Electronic Robotic Olympiad</h4>
+                                    <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                    scelerisque diam non nisi semper, et elementum lorem ornare.
+                                    Maecenas placerat facilisis mollis.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                <div class="order-1 w-5/12"></div>
+
+                                <div class="order-1  w-5/12 px-1 py-4">
+                                    <p class="mb-3 text-base text-yellow-300">2017</p>
+                                    <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">3rd Winner IT-Smart Computer Electronic Robotic Olympiad</h4>
+                                    <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                    scelerisque diam non nisi semper, et elementum lorem ornare.
+                                    Maecenas placerat facilisis mollis.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
 </body>
