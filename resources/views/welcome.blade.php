@@ -11,6 +11,7 @@
 </head>
 <body>
 
+    <!-- NAVIGATION BAR -->
 
     <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between ml-[9vw] p-4">
@@ -47,11 +48,9 @@
     </div>
     </nav>
 
-
-    <h1></h1>
-
-    <div id="profile" class=" border-green flex flex-row">
-        <!-- <p class="text-[20vw] h-[10vw] w-full">Hello!</p> -->
+    <!-- PROFILE -->
+    
+    <div id="profile" class="flex flex-row">
         <div class="w-5/6">
             <h1 class="text-[3vw] font-bold font-font-2 mt-[4vw] ml-[9vw]">
                 Hello!
@@ -73,13 +72,118 @@
         <img src="assets/Line.png" class="h-[0.07vw] ml-[9vw]"/>
     </div>
 
-    <div id="skills" class=" border-green flex flex-row">
-        <div class="justify-center flex w-[100vw]">
-            <img src="assets/Skills.png" class="h-[25vw] mt-[1vw] absolute z-10"/>
-            <img src="assets/Design Skills 1.png" class="h-[10vw] ml-[5vw] relative z-0"/>
+    <!-- SKILLS -->
+
+    <div id="skills" class="flex">
+        <div class="justify-center flex w-[100vw] h-[30vw] mt-[4vw]">
+            <img src="assets/Skills.png" class="h-[25vw] absolute"/>
+            <img src="assets/Design Skills 2.png" class="h-[25vw] mr-[-1vw]"/>
+            <img src="assets/Design Skills 1.png" class="h-[25vw] ml-[-1vw]"/> 
         </div>   
     </div>
 
+    <!-- INTEREST -->
 
+    <div id="interest" class="">
+        <h2 class="text-[2vw] font-bold mt-[2vw] ml-[9vw] mb-[0.5vw]"> Interest </h2>
+        <div class="flex flex-row">
+            <div id="card_1" class=""> 
+                <a class="ml-[9vw] block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-gray-900 dark:text-white">Programming</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum penjelasan panjang lah pokoknya tentang programming.</p>
+                </a>
+            </div>           
+            <div id="card_2" class=""> 
+                <a class="ml-[2vw] block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-gray-900 dark:text-white">Editing Video</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum penjelasan panjang lah pokoknya tentang Editing Video.</p>
+                </a>
+            </div>
+            <div id="card_3" class=""> 
+                <a class="ml-[2vw] block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-gray-900 dark:text-white">Holding an Event</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum penjelasan panjang lah pokoknya tentang Holding an Event.</p>
+                </a>
+            </div>         
+        </div>      
+    </div>
+
+    <!-- EDUCATION -->
+
+    <div class="education">
+        <h1 class="text-[2vw] font-bold mt-[5vw] ml-[9vw] mb-[1.5vw]"> Education </h1>
+        <ol class="ml-[9vw] mr-[9vw] border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-[3vw] md:border-l-0 md:border-t">
+            <li>
+                <div class="flex-start flex items-center pt-2 md:block md:pt-0">
+                    <div class="ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:ml-0 md:mr-0 md:-mt-[5px]"></div>
+                    <p class="mt-2 text-sm text-black dark:text-black"> 2009 - 2015 (Elementary School) </p>
+                </div>
+                <div class="mt-2 ml-4 pb-5 md:ml-0">
+                    <h4 class="mb-1.5 text-xl font-semibold">SD Al Falah Assalam</h4>
+                    <p class="w-[18vw] mb-3 text-gray-600 dark:text-gray-600 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                        scelerisque diam non nisi semper, et elementum lorem ornare.
+                        Maecenas placerat facilisis mollis. Duis sagittis ligula in
+                        sodales vehicula.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="flex-start flex items-center pt-2 md:block md:pt-0">
+                    <div class="ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:ml-0 md:mr-0 md:-mt-[5px]"></div>
+                    <p class="mt-2 text-sm text-black dark:text-black"> 2015 - 2018 (Junior High School) </p>
+                 </div>
+                <div class="mt-2 ml-4 pb-5 md:ml-0">
+                    <h4 class="mb-1.5 text-xl font-semibold">SMP Al Falah Deltasari</h4>
+                    <p class="w-[18vw] mb-3 text-gray-600 dark:text-gray-600 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                        scelerisque diam non nisi semper, et elementum lorem ornare.
+                        Maecenas placerat facilisis mollis. Duis sagittis ligula in
+                        sodales vehicula.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="flex-start flex items-center pt-2 md:block md:pt-0">
+                    <div class="ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:ml-0 md:mr-0 md:-mt-[5px]"></div>
+                    <p class="mt-2 text-sm text-black dark:text-black"> 2018 - 2021 (Senior High School) </p>
+                </div>
+                <div class="mt-2 ml-4 pb-5 md:ml-0">
+                    <h4 class="mb-1.5 text-xl font-semibold">SMA Negeri 1 Sidoarjo</h4>
+                    <p class="w-[18vw] mb-3 text-gray-600 dark:text-gray-600 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                        scelerisque diam non nisi semper, et elementum lorem ornare.
+                        Maecenas placerat facilisis mollis. Duis sagittis ligula in
+                        sodales vehicula.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="flex-start flex items-center pt-2 md:block md:pt-0">
+                    <div class="ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:ml-0 md:mr-0 md:-mt-[5px]"></div>
+                    <p class="mt-2 text-sm text-black dark:text-black"> 2021 - present (Undergraduate) </p>
+                </div>
+                <div class="mt-2 ml-4 pb-5 md:ml-0">
+                    <h4 class="mb-1.5 text-xl font-semibold">Bina Nusantara University</h4>
+                    <p class="w-[18vw] mb-3 text-gray-600 dark:text-gray-600 text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                        scelerisque diam non nisi semper, et elementum lorem ornare.
+                        Maecenas placerat facilisis mollis. Duis sagittis ligula in
+                        sodales vehicula.
+                    </p>
+                </div>
+            </li>
+
+
+        </ol>
+    </div>    
+
+
+
+
+    
 </body>
 </html>
