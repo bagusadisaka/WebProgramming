@@ -15,7 +15,7 @@
         <nav class="border-gray-700 bg-gray-800">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between ml-[9vw] p-4">
             <a href="#" class="flex items-center">
-                <span class="self-center text-2xl font-font-1 whitespace-nowrap text-white">Portofolio</span>
+                <span class="self-center text-2xl font-font-1 whitespace-nowrap text-white">Portfolio</span>
             </a>
             <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
