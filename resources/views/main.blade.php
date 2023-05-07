@@ -6,12 +6,15 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <title>Bagus Adisaka Portfolio</title>
 </head>
 <body>
-
     <!-- NAVIGATION BAR -->
 
-    <section id="navbar" class="sticky top-0 w-full z-50">
+    <section id="navbar" class="fixed top-0 w-full z-50">
         <nav class="border-gray-700 bg-gray-800">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between ml-[9vw] p-4">
             <a href="#" class="flex items-center">
@@ -49,8 +52,8 @@
 
     <!-- PROFILE -->
 
-    <section id="profile">    
-        <div class="flex flex-row">
+    <section id="profile">
+        <div class="flex flex-row mt-[5vw]">
             <div class="w-5/6">
                 <h1 class="text-[3vw] font-bold font-font-2 mt-[4vw] ml-[9vw]">
                     Hello!
@@ -61,39 +64,39 @@
                 <p class="text-[1vw] mt-[2vw] mr-[10vw] ml-[9vw] mb-[2vw] text-justify ">
                     Someone who interested and pursuing technology and information. Oriented to future technology development. Communication and teamwork are some of the keys to success. Become a leader and successor of technology development.
                 </p>
-                <a href="http://instagram.com/_u/bagusadisaka/" class=" ml-[9vw] mr-auto text-white rounded shadow hover:shadow-lg py-2 px-4 bg-gray-800 border-gray-700 hover:bg-gray-700"> 
+                <a href="http://instagram.com/_u/bagusadisaka/" class=" ml-[9vw] mr-auto text-white rounded shadow hover:shadow-lg py-2 px-4 bg-gray-800 border-gray-700 hover:bg-gray-700">
                     Contact Me
                 </a>
             </div>
             <div class="justify-center flex w-[50vw]">
                 <img src="assets/Foto Profile.png" class="h-[25vw] mt-[1vw] absolute z-10"/>
                 <img src="assets/Background Profile.png" class="h-[25vw] mt-[1vw] relative z-0"/>
-            </div>   
+            </div>
         </div>
         <div>
             <img src="assets/Line.png" class="h-[0.07vw] ml-[9vw]"/>
         </div>
     </section>
-    
+
     <!-- SKILLS -->
 
     <section id="skills" class="flex">
         <div class="bg-gray-800 mx-[9vw] mt-[4vw] rounded-lg shadow">
             <div class="justify-center flex w-[80vw] h-auto ">
                 <img src="assets/Skills.png" class="h-[25vw] absolute"/>
-                <img src="assets/Design Skills 1.png" class="h-[25vw]"/> 
-                <img src="assets/Design Skills 2.png" class="h-[25vw]"/>       
-            </div>   
+                <img src="assets/Design Skills 1.png" class="h-[25vw]"/>
+                <img src="assets/Design Skills 2.png" class="h-[25vw]"/>
+            </div>
         </div>
-    </section>                      
+    </section>
 
     <!-- INTEREST -->
 
-    <section id="interests">    
+    <section id="interests">
         <div>
             <h2 class="text-[2vw] font-bold mt-[4vw] ml-[9vw] mb-[0.5vw]"> Interests </h2>
             <div class="flex flex-row">
-                <div id="card_1" class=""> 
+                <div id="card_1" class="">
                     <a class="ml-[9vw] block max-w-sm p-6 rounded-lg shadow bg-gray-800 border-gray-700 hover:bg-gray-700">
                         <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-white">Programming</h5>
                         <p class="font-normal text-gray-400">
@@ -101,8 +104,8 @@
                             where when i was started to take part in the Robotics Extracurricular and Robotic Course.
                         </p>
                     </a>
-                </div>           
-                <div id="card_2" class=""> 
+                </div>
+                <div id="card_2" class="">
                     <a class="ml-[2vw] block max-w-sm p-6 rounded-lg shadow bg-gray-800 border-gray-700 hover:bg-gray-700">
                         <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-white">Editing Video</h5>
                         <p class="font-normal text-gray-400">
@@ -112,7 +115,7 @@
                         </p>
                     </a>
                 </div>
-                <div id="card_3" class=""> 
+                <div id="card_3" class="">
                     <a class="ml-[2vw] block max-w-sm p-6 rounded-lg shadow bg-gray-800 border-gray-700 hover:bg-gray-700">
                         <h5 class="mb-2 text-[1.5vw] font-bold tracking-tight text-white">Holding an Event</h5>
                         <p class="font-normal text-gray-400">
@@ -120,8 +123,8 @@
                             where when i was started organizing events with the Student Council member.
                         </p>
                     </a>
-                </div>         
-            </div>      
+                </div>
+            </div>
         </div>
     </section>
 
@@ -192,13 +195,13 @@
                 </li>
 
             </ol>
-        </div>    
+        </div>
     </section>
-   
+
     <!-- ORGANIZATIONS -->
 
-    <section id="organizations">     
-        <div> 
+    <section id="organizations">
+        <div>
             <h1 class="text-[2vw] font-bold mt-[5vw] ml-[9vw] mb-[1.5vw]"> Organizations </h1>
 
             <div class="ml-[9vw] mr-[9vw] p-5 mb-4 border rounded-lg bg-gray-50 border-gray-700">
@@ -213,7 +216,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2014 - 2015
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -232,7 +235,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2015 - 2016
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -245,7 +248,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2016 - 2017
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -264,7 +267,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2018 - 2019
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -277,7 +280,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2019 - 2020
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -290,7 +293,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2020 - 2021
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -309,7 +312,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2021 - 2022
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -322,7 +325,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2021 - 2022
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -335,7 +338,7 @@
                                 <span class="inline-flex items-center text-xs font-normal text-gray-500">
                                     <svg aria-hidden="true" class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path></svg>
                                     2022
-                                </span> 
+                                </span>
                             </div>
                         </a>
                     </li>
@@ -346,11 +349,8 @@
 
     <!-- KOLASE -->
 
-    <section id="kolase" class="">
-        <head>
-            <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
-        </head>
-        <body>
+    {{-- <section id="kolase" class="">
+        <div class="row">
             <div class="h-[35vw] relative">
                 <div class="w-[20vw] mx-auto" style="scroll-snap-type: x mandatory;">
 
@@ -365,7 +365,7 @@
                             <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight text-center">
                                 OSIS Senior High School
                             </h1>
-                            <p class="hover:cursor-pointer py-3 text-gray-600 leading-6 text-justify"> 
+                            <p class="hover:cursor-pointer py-3 text-gray-600 leading-6 text-justify">
                                 As a Leader, i carry out various activities such as dies natalis smanisda, smanisda cup, smanisda art performance, pleno meeting, etc.
                             </p>
                         </div>
@@ -385,7 +385,7 @@
                     </div>
                     </div>
 
-                    
+
                 <!-- second -->
                 <div class="">
                     <input class="sr-only peer" type="radio" name="carousel" id="carousel-2" />
@@ -479,7 +479,7 @@
                         </div>
                     </div>
                 </div>
-                        
+
                 <!-- fifth -->
                 <div class="">
                     <input class="sr-only peer" type="radio" name="carousel" id="carousel-5" />
@@ -545,11 +545,61 @@
 
                 </div>
             </div>
-        </body>
+        </div>
+    </section> --}}
+
+    {{-- ABOUT ME --}}
+
+    <section id="about me">
+        <h3 class="text-center mb-[2vw] mt-[5vw] font-bold text-[1.5vw]">About Me</h3>
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 text-center">
+                    @foreach ($osis as $os)
+                        <div class="card mb-[1vw]">
+                            <img class="card-img-top" src="{{ asset('assets/osis/' . $os['image']) }}"
+                                alt="{{ $os['name'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title font-semibold">{{ $os['name'] }}</h5>
+                                <p class="card-text">{{ $os['element'] }}</p>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+
+                <div class="col-md-4 text-center">
+                    @foreach ($creative as $cr)
+                        <div class="card mb-[1vw]">
+                            <img class="card-img-top" src="{{ asset('assets/creative/' . $cr['image']) }}"
+                                alt="{{ $cr['name'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title font-semibold">{{ $cr['name'] }}</h5>
+                                <p class="card-text">{{ $cr['element'] }}</p>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+
+                <div class="col-md-4 text-center">
+                    @foreach ($other as $ot)
+                        <div class="card mb-[1vw]">
+                            <img class="card-img-top" src="{{ asset('assets/other/' . $ot['image']) }}"
+                                alt="{{ $ot['name'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title font-semibold">{{ $ot['name'] }}</h5>
+                                <p class="card-text">{{ $ot['element'] }}</p>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- ACHIEVMENTS -->
- 
+
     <section id="achievements" class="mt-[2vw]">
         <div class="bg-gray-800 text-white py-8">
             <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
@@ -559,10 +609,10 @@
                     <p class="ml-2 text-yellow-300 uppercase tracking-loose">Achievements</p>
                     <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Honors & Awards</p>
                     <p class="text-sm md:text-base text-gray-50 mb-4">
-                    All that i have gone through to date, 
+                    All that i have gone through to date,
                     and many others. I can do everything with the help of my family, teachers. and friends.
                     </p>
-                    <a class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"> 
+                    <a class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
                     Explore Now</a>
                 </div>
 
@@ -581,7 +631,7 @@
                                     <div class="order-1 w-5/12 px-1 py-4 text-right">
                                         <p class="mb-3 text-base text-yellow-300">2014</p>
                                         <h4 class="mb-3 font-bold text-lg md:text-2xl">1st Winner English Competition (Trivia Quiz Category)</h4>
-    
+
                                     </div>
                             </div>
 
@@ -663,13 +713,12 @@
 
     <!-- FOOTER -->
 
-    <section id="footer" class="bg-gray-800  text-white py-8">    
+    <section id="footer" class="bg-gray-800  text-white py-8">
         <footer class="footer footer-center bg-base-300 text-base-content self-center">
             <div class="text-center">
                 <p>Copyright © 2023 - Nandatama Bagus Adisaka</p>
             </div>
         </footer>
-    </section>    
-
+    </section>
 </body>
 </html>
